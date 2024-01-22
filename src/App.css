@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*GENERICS STYLES*/
+
+.red {
+    color: #F63B2A;
+}
+.white {
+    color: #fff;
+}
+.heading{
+    font-size: 190px;
+    font-family: 'Anton', sans-serif;
+}
+.heading2{
+    font-size: 90px;
+    font-family: 'Anton', sans-serif;
+}
+.subheading{
+    font-size: 70px;
+    font-family: 'Imbue', serif;
+}
+.subheading2{
+    font-size: 50px;
+    font-family: 'Imbue', serif;
+}
+.layout {
+    margin: 0 120px;
+}
+
+/*APP STYLES*/
+
+.paddingTop{
+    margin-top:-40px;
+}
+
+.main {
+    background-image: url('./assets/Bg.png');
+}
+.logo{
+    margin-top:100px;
+}
+.textBlock {
+    text-align: center;
+    max-width: 600px;
+    margin-top: 50px;
+    padding-bottom: 250px;
+}
+.button{ 
+    margin-top:40px;
+    padding:20px 50px;
+    border: 5px solid #fff;
+    color:#fff;
+    background-color:#F63B2A;
+    border-radius: 20px;
+}
+.buttonText{
+    font-family: 'Anton', sans-serif;
+    font-size: 36px;    
+}
+.run{
+    font-family: 'Anton', sans-serif;
+    font-size: 42px;
+    padding:0 10px;
+}
+.runborder{
+    font-size: 42px;
+    font-family: 'Anton', sans-serif;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: #F63B2A; 
+}
+
+.about {
+    background-color: #fff;
+}
+.aboutTextBlock{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.imgLayout{
+    margin: 0 auto;
+    text-align: center;
+}
+.memeStyle{
+    margin: 10px;
+}
+
+.socialBlock{
+    text-align: center;
+    margin-top:20px;
+}
+.social{
+    margin: 0 10px;
+}
+.lastText{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: 'Imbue', serif;;
+    font-size: 30px;
+}
+
+.runningTextBlock {
+    overflow: hidden;
+  }
+  
+  .runningText {
+    white-space: nowrap;
+    animation: marquee 3s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-30%);
+    }
+  }
